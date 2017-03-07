@@ -17,8 +17,7 @@ function formulario_login()
 function login()
 {
 	if($_POST['inputUsuario']!==null) // Iniciar sesión 
-	{
-		session_start();
+	{	session_start();
 		$json = file_get_contents("usuarios.json");
 		$usuarios = json_decode($json, true);
 		$nUsuario = urldecode($_POST['inputUsuario']);

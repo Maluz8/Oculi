@@ -5,6 +5,12 @@ require_once __DIR__.'/core.php';
 $config = recuperarConfiguracion();
 
 // Identificar a la pantalla cliente
+if(isset($_GET['id']))
+{
+	$pantalla=$config['opciones']['pantallas'][$_GET['id']];
+	
+}
+else
 $pantalla = identificarPantalla($config);
 
 $tema = 'default';
@@ -12,6 +18,8 @@ $tema = 'default';
 if($pantalla!==null)
 {
 	$grupo = $config['opciones']['grupos'][$pantalla['grupo']];
+
+
 	if($grupo!==null)
 	{
 		// Recuperar tema que esa pantalla utiliza

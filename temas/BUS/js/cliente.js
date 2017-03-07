@@ -6,7 +6,7 @@ if(!tActualizar)
 	tActualizar = 900000;
 if(!tRotacion)
 	tRotacion = 5000;
-function actualizar (primeraVez=false){
+function actualizar (primeraVez){
 	$.ajax( {
 		url: URL,
 		type: 'GET',

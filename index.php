@@ -8,7 +8,11 @@ require __DIR__.'/opciones.php';
 $config = recuperarConfiguracion();
 
 // Identificar a la pantalla cliente
-$pantalla = identificarPantalla($config);
+if(isset($_GET['id']))
+{
+$pantalla=$config['opciones']['pantallas'][$_GET['id']];
+}
+else
 
 if($pantalla==null)
 	logError("Error. Pantalla no identificada.");

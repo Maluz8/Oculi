@@ -1,0 +1,224 @@
+
+a.color_oxido {
+	color: #800000;
+}
+
+.sangria1 {
+	padding-left: 3em;
+}
+
+.salaLIBRE {
+	font-size: smaller;
+	height: 69px;
+	width: 125px;
+	background-color: #81cf81;
+	border: 1px solid #9d2030;
+	padding: 5px;
+	min-width: 50px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.salaOCUP {
+	font-size: smaller;
+	height: 69px;
+	width: 125px;
+	color: #ffffff;
+	background-color: #df524e;
+	border: 1px solid #9d2030;
+	padding: 5px;
+	min-width: 50px;
+	text-align: center;
+	vertical-align: center;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.salaRES {
+	font-size: smaller;
+	height: 69px;
+	width: 125px;
+	color: #ffffff;
+	background-color: #7db3d0;
+	border: 1px solid #9d2030;
+	padding: 5px;
+	min-width: 50px;
+	text-align: center;
+	vertical-align: center;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.salaNOactiva {
+	font-size: smaller;
+	height: 69px;
+	width: 125px;
+	background-color: #bfbfbf;
+	padding: 5px;
+	border: 1px solid #000000;
+	min-width: 50px;
+	text-align: center;
+	vertical-align: center;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.turno {
+	font-weight: bold;
+	background-color: #ffffff;
+	color: #9d2030;
+	border: 1px solid #9d2030;
+	padding: 1px;
+	min-width: 50px;
+	text-align: center;
+	vertical-align: center;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.turnoDESC {
+	font-weight: bold;
+	color: #000000;
+	background-color: #bfbfbf;
+	padding: 1px;
+	border: 1px solid #000000;
+	min-width: 50px;
+	text-align: center;
+	vertical-align: center;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.tituloSala {
+	height: 69px;
+	background-color: #9d2030;
+	border: 1px solid #f2dede;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 1px;
+	min-width: 50px;
+	text-align: center;
+	vertical-align: center;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.leyenda {
+	width: 100%;
+	padding: 0;
+	margin-bottom: 20px;
+	font-size: 21px;
+	line-height: 40px;
+	color: #333333;
+	border: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.leyenda2 {
+	width: 100%;
+	padding: 0;
+	margin-bottom: 2px;
+	font-size: 21px;
+	line-height: 40px;
+	color: #333333;
+	border: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+
+
+/* Etilos usuario*/
+.usrSalaLIBRE {
+	vertical-align: bottom;
+	height: 40px;
+	background-color: #d3e8a3;
+	border: 1px solid #9d2030;
+	padding: 5px;
+	min-width: 50px;
+	text-align: center;
+	margin: 0px;
+}
+
+.usrSalaPasada {
+	height: 40px;
+	background-color: #fae6b4;
+	padding: 5px;
+	border: 1px solid #000000;
+	min-width: 50px;
+	text-align: center;
+	margin: 0px;
+}
+
+.usrSalaOCUP {
+	height: 40px;
+	color: #000000;
+	background-color: #e34b3d;
+	border: 1px solid #9d2030;
+	padding: 5px;
+	min-width: 50px;
+	text-align: center;
+	margin: 0px;
+}
+
+.usrSalaRES {
+	height: 40px;
+	color: #ffffff;
+	background-color: #8ec9d1;
+	border: 1px solid #9d2030;
+	padding: 5px;
+	min-width: 50px;
+	text-align: center;
+	margin: 0px;
+}
+
+.usrSalaNOactiva {
+	height: 40px;
+	background-color: #bfbfbf;
+	padding: 5px;
+	border: 1px solid #000000;
+	min-width: 50px;
+	text-align: center;
+	margin: 0px;
+}
+
+.usrTurno {
+	font-weight: bold;
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid #9d2030;
+	padding: 1px;
+	min-width: 50px;
+	text-align: center;
+	margin: 0px;
+}
+
+.usrTurnoDESC {
+	font-weight: bold;
+	color: #000000;
+	background-color: #bfbfbf;
+	padding: 1px;
+	border: 1px solid #000000;
+	min-width: 50px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px;
+}
+
+.usrTituloSala {
+	height: 40px;
+	width: 100px;
+	background-color: #ffffff;
+	border: 1px solid #9d2030;
+	color: #000000;
+	font-weight: bold;
+	padding: 5px;
+	min-width: 50px;
+	text-align: center;;
+	vertical-align: middle;
+	margin: 0px;
+}
+table{
+	width:100%;
+	font-size:25px;
+}

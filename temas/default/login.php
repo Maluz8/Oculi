@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div class="cabecera">
-		<div id="titulo"><h2>Oculus++</h2></div><img src="/temas/BUS/bus.png">
+		<div id="titulo"><h2>Oculus++</h2></div><img src="temas/BUS/bus.png">
 	</div>
 	<?php login();?>
 	<div id="pie">

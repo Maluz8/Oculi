@@ -1,24 +1,153 @@
-{"opciones":{
-	"pantallas":{
-		"192.168.192.3": {"nombre": "PRUEBA1", "grupo": "educacion"},
-		"localhost": {"nombre": "PRUEBA2", "grupo": "matematicas"},
-		"192.168.192.212": {"nombre": "MALUS", "grupo": "prueba"},
-		"150.214.182.43": {"nombre": "MALUS2", "grupo": "prueba"}
-	},
-	"canales":{
-		"wpeducacion": {"fuente": "Wordpress", "url": "https://paideiablog.wordpress.com/feed", "imagen": "http://www.powerpointhintergrund.com/uploads/education-background-18.jpg", "limite": 1, "owner": "mariluz", "descripcion": "Blog Wordpress de la biblioteca de Educación"},
-		"wpmatematicas": {"fuente": "Wordpress", "url": "https://matbus.wordpress.com/feed/", "imagen": "http://www.usp.br/imprensa/wp-content/uploads/1matematica.jpg", "limite": 1, "owner": "*", "descripcion": ""},
-		"portalmatematicas": {"fuente": "Drupal", "url": "http://www.matematicas.us.es/index.php?format=feed&type=rss", "imagen": "http://www.usp.br/imprensa/wp-content/uploads/1matematica.jpg", "limite": 13, "owner": "mariluz", "descripcion": "Portal Drupal de matemáticas"},
-		"drupalbiblioteca": {"fuente": "Drupal", "url": "http://bib.us.es/rss_noticias.xml", "imagen": "", "limite": 1, "owner": "*", "descripcion": ""},
-		"adquisicionesEdu": {"fuente": "Pinterest", "url":"https://es.pinterest.com/buseducacion/feed.rss/", "imagen": "https://ae01.alicdn.com/kf/HTB18yb5JVXXXXbjXXXXq6xXFXXXh/Photo-Backdrops-Children-Vinyl-Photo-Props-for-Studio-Photography-font-b-Background-b-font-font-b.jpg", "limite": 1, "owner": "*", "descripcion": ""},
-		"drupalOculus": {"fuente": "Drupal", "url":"http://150.214.182.236/noticias-oculus.xml/", "imagen": "http://150.214.182.236/sites/default/files/pedrosanchez.jpg", "limite": 1, "owner": "*", "descripcion": ""},
-		"tiempo": {"fuente": "Tiempo", "url":"vWJALBdBYAje11DAKAuzDjzDzsnATAjFLYEdkZyoaED53IGIm", "owner": "*", "descripcion": ""},
-		"expobus": {"fuente": "Frame", "url":"http://expobus.us.es/omeka", "owner": "*", "descripcion": ""},
-		"caranchoa": {"fuente": "Youtube", "url":"rOQFkoxcOek", "owner": "*", "descripcion": ""}
-	},
-	"grupos":{
-		"educacion": {"tema": "BUS", "canales":["caranchoa", "expobus", "wpmatematicas", "tiempo", "adquisicionesEdu", "drupalOculus","wpeducacion"], "titulo": "Biblioteca de Ciencias de la Educaci&oacute;n", "tActualizar": 15, "tRotacion": 8},
-		"matematicas": {"tema": "BUS", "canales":["wpmatematicas", "drupalbiblioteca"], "titulo": "Biblioteca de matemáticas"},
-		"prueba": {"tema": "BUS", "canales":["caranchoa", "expobus", "wpmatematicas", "tiempo", "adquisicionesEdu", "drupalOculus","wpeducacion"], "titulo": "Biblioteca de prueba", "tActualizar": 1, "tRotacion": 2}
+{
+	"opciones": {
+		"pantallas": {
+			"192.168.192.215": {
+				"nombre": "dghsdg",
+				"grupo": "prueba"
+			},
+			"localhost": {
+				"nombre": "MiPantalla",
+				"grupo": "prueba"
+			},
+			"150.214.182.115": {
+				"nombre": "MALUS",
+				"grupo": "prueba"
+			},
+			"150.214.182.212": {
+				"nombre": null,
+				"grupo": null
+			},
+			"150.214.182.217": {
+				"nombre": null,
+				"grupo": null
+			},
+			"iii": {
+				"nombre": "dghdfgsdfg",
+				"grupo": "matematicas"
+			},
+			"rectorAntonio": {
+				"nombre": "MALUS",
+				"grupo": "prueba"
+			}
+		},
+		"canales": {
+			"wpeducacion": {
+				"fuente": "Wordpress",
+				"url": "https:\/\/paideiablog.wordpress.com\/feed",
+				"imagen": "http:\/\/www.powerpointhintergrund.com\/uploads\/education-background-18.jpg",
+				"limite": 1,
+				"owner": "mariluz",
+				"descripcion": "Blog Wordpress de la biblioteca de Educaci\u00f3n"
+			},
+			
+			"wpmatematicas": {
+				"fuente": "Wordpress",
+				"url": "https:\/\/matbus.wordpress.com\/feed\/",
+				"imagen": "http:\/\/www.usp.br\/imprensa\/wp-content\/uploads\/1matematica.jpg",
+				"limite": 1,
+				"owner": "*",
+				"descripcion": ""
+			},
+			"portalmatematicas": {
+				"fuente": "Drupal",
+				"url": "http:\/\/www.matematicas.us.es\/index.php?format=feed&type=rss",
+				"imagen": "http:\/\/www.usp.br\/imprensa\/wp-content\/uploads\/1matematica.jpg",
+				"limite": 13,
+				"owner": "mariluz",
+				"descripcion": "Portal Drupal de matem\u00e1ticas"
+			},
+			"drupalbiblioteca": {
+				"fuente": "Drupal",
+				"url": "http:\/\/bib.us.es\/rss_noticias.xml",
+				"imagen": "",
+				"limite": 1,
+				"owner": "*",
+				"descripcion": ""
+			},
+			"adquisicionesEdu": {
+				"fuente": "Pinterest",
+				"url": "https:\/\/es.pinterest.com\/buseducacion\/feed.rss\/",
+				"imagen": "https:\/\/ae01.alicdn.com\/kf\/HTB18yb5JVXXXXbjXXXXq6xXFXXXh\/Photo-Backdrops-Children-Vinyl-Photo-Props-for-Studio-Photography-font-b-Background-b-font-font-b.jpg",
+				"limite": 1,
+				"owner": "*",
+				"descripcion": ""
+			},
+			"drupalOculus": {
+				"fuente": "Drupal",
+				"url": "http:\/\/150.214.182.236\/noticias-oculus.xml\/",
+				"imagen": "http:\/\/150.214.182.236\/sites\/default\/files\/pedrosanchez.jpg",
+				"limite": 1,
+				"owner": "*",
+				"descripcion": ""
+			},
+			"tiempo": {
+				"fuente": "Tiempo",
+				"url": "vWJALBdBYAje11DAKAuzDjzDzsnATAjFLYEdkZyoaED53IGIm",
+				"owner": "*",
+				"descripcion": ""
+			},
+			"expobus": {
+				"fuente": "Frame",
+				"url": "http:\/\/expobus.us.es\/omeka",
+				"owner": "*",
+				"descripcion": ""
+			},
+			"caranchoa": {
+				"fuente": "Youtube",
+				"url": "rOQFkoxcOek",
+				"owner": "*",
+				"descripcion": ""
+			},
+			"salas": {
+				"fuente": "Reservas",
+				"url": "http:\/\/bib2.us.es\/estado_salas\/BDCT2",
+				"owner": "*",
+				"descripcion": ""
+			}
+		},
+		"grupos": {
+			"educacion": {
+				"tema": "BUS",
+				"canales": [
+					"caranchoa",
+					"expobus",
+					"wpmatematicas",
+					"tiempo",
+					"adquisicionesEdu",
+					"drupalOculus",
+					"wpeducacion"
+				],
+				"titulo": "Biblioteca de Ciencias de la Educaci&oacute;n",
+				"tActualizar": 15,
+				"tRotacion": 8
+			},
+			"matematicas": {
+				"tema": "BUS",
+				"canales": [
+					"salas"
+				],
+				"titulo": "Biblioteca de matem\u00e1ticas",
+				"tActualizar": "5",
+				"tRotacion": "5"
+			},
+			"prueba": {
+				"tema": "BUS",
+				"canales": [
+					
+					"salas"
+				],
+				"titulo": "Biblioteca de prueba",
+				"tActualizar": "1",
+				"tRotacion": "2"
+			},
+		
+			"NUEVOGRUPO": {
+				"tema": "BUS",
+				"titulo": "asdf",
+				"tActualizar": "4",
+				"tRotacion": "4",
+				"canales": null
+			}
+		}
 	}
-}}
+}

@@ -10,8 +10,9 @@
 </head>
 <body>
 	<div class="cabecera">
-		<div id="titulo"><div class="loggedin"><h3><?php echo nombreUsuario();?></h3><?php echo menu();?></div><h2>Oculus++</h2></div><img src="/temas/BUS/bus.png">
+		<div id="titulo"><div class="loggedin"><h3><?php echo nombreUsuario();?></h3><?php echo menu();?></div><h2>Oculus++</h2></div><img src="temas/BUS/bus.png">
 	</div>
+
 	<div class="cuerpo">
 		<?php admin();?>
 	</div>
