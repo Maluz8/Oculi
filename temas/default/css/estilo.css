@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box; /*incluye pading y border en la medida*/
+	font-size: 91%;
+}
+
+body{
+	width:100%;
+	max-height:100%;
+	font-family: arial;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.web{
+	height: 86%;
+	
+}
+
+#pie{
+	
+	width: 100%;
+	color: white;
+	font-size: 24px; /* Cambiar tamaño usando esto como clave*/
+	position: fixed;
+	bottom: 0;
+}
+.cabecera{
+	
+	background: #9c1f2f;
+	text-align: right;
+	padding: 0.25em 1em;
+	height: 10%;
+	width: 100%;
+	color: white;
+	font-size: 50px; /* Cambiar tamaño usando esto como clave*/
+}
+.cabecera>img{
+	width: 15%;
+}
+.cabecera>div{
+	float: left;
+	padding: 0.25em;
+}
+#pie>div{
+	width:50%;
+		height:4%;
+	display: inline-block;
+	padding: 0.5em 1em;
+}
+#pie>div:first-child{
+	background: black;
+	text-align: right;
+}
+#pie>div:last-child{
+	background: #9c1f2f;
+}
+ .titulo{
+   /*border: 5px solid;*/
+   border-radius: 10px 10px 0px 0px;
+   background:#9B1E2E;  
+}
+#reloj{
+	width: 15%;
+    text-align: left;
+}
+#titulo{
+	width: 69%;
+    text-align: center;
+}
+#titulo>h2{margin: 2% auto;}
+.form-signin{
+	width: 33%;
+	min-width: 30em;
+	margin: 10% auto;
+}
+.formGrupos,.formCanales{
+	width: 33%;
+	min-width: 50em;
+	margin: 5em auto;
+}
+.formGrupo,.formCanal{
+	margin: 4em auto;
+}
+a.salir{
+	color: white;
+	font-size: 22px;
+}
+.mensaje{
+	margin: 10% auto;
+	text-align: center;
+}
+form>button {
+    margin-top: 0.75em;
+}
+.cuerpo{
+	position: absolute;
+    height: 82%;
+	width: 100%;
+	overflow: auto;
+}
+.listaMulti{
+	min-height: 10em;
+}
+.loggedin{
+	float: right;
+}
+.loggedin>*{
+	margin: 1px auto;
+	display: block;
+}
+form>*{
+	margin: 0.75em 0;
+}

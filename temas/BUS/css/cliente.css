@@ -1,0 +1,158 @@
+*{
+	box-sizing: border-box; /*incluye pading y border en la medida*/
+	font-size: 91%;
+	      	
+}
+
+body{
+	width:100%;
+	max-height:100%;
+	font-family: arial;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.web{
+	height: 86%;
+	
+}
+
+#pie{
+	
+	width: 100%;
+	color: white;
+	font-size: 24px; /* Cambiar tamaño usando esto como clave*/
+	position: fixed;
+	bottom: 0;
+}
+.cabecera{
+	
+	background: #9c1f2f;
+	text-align: right;
+	padding: 0.25em 1em;
+	height: 10%;
+	width: 100%;
+	color: white;
+	font-size: 50px; /* Cambiar tamaño usando esto como clave*/
+}
+.cabecera>img{
+	width: 15%;
+}
+.cabecera>div{
+	float: left;
+	padding: 0.25em;
+}
+#pie>div{
+	width:50%;
+		height:4%;
+	display: inline-block;
+	padding: 0.5em 1em;
+}
+#pie>div:first-child{
+	background: black;
+	text-align: right;
+}
+#pie>div:last-child{
+	background: #9c1f2f;
+}
+ .titulo{
+   /*border: 5px solid;*/
+   border-radius: 10px 10px 0px 0px;
+   background:#9B1E2E;  
+}
+#reloj{
+	width: 15%;
+    text-align: left;
+}
+#titulo{
+	width: 69%;
+    text-align: center;
+}
+#titulo>h2{margin: 2% auto;}
+.item{
+	opacity: 0;
+	transition: opacity 2s, height 0s 2s;
+	background-size: cover;
+	overflow: hidden;
+    width: 100%;
+    position: absolute;
+    height: 86%;
+}
+
+.titulo>p{
+	 color:white;
+	 padding: 10px;
+	 font: 300% sans-serif;
+	
+}
+
+.texto{
+	   border-radius: 0px 0px 10px 10px;
+   		/*background:rgba(245, 237, 238, 0.7); borrar*/
+
+	
+}
+.texto>p{
+	  font: 300% sans-serif;
+	  text-align:center;
+	  padding: 20px;
+	 
+	
+}
+
+.noticia{
+	width: 85%;
+	position:absolute;
+	top:60%;
+	left:8%;
+	background: rgba(245, 237, 238, 0.9);
+	 border-radius: 10px 10px 10px 10px;
+}
+
+.adq{
+	width: 38%;
+	background:#F5EDEE;
+	position:absolute;
+	top:36%;
+	left:55%;
+	 border-radius: 10px 10px 10px 10px;
+}
+img.imagen{
+	width: 100%;
+	height: 100%;
+}
+img.imagenpin
+{
+	height: 100%;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.contenido{
+	overflow: hidden;
+	height: 86%;
+	vertical-align: middle;
+	
+}
+.reservas{
+	transform: scale(1.8);
+	margin: 2em auto;
+	display: inline-block;
+	vertical-align: middle;
+	transform-origin: 50% 0%;
+	width: 100%;
+	height: 100%;
+	
+}
+.noticia{
+	overflow: hidden;
+	max-height: 33%;
+	vertical-align: middle;
+}
+#tiempo{
+	transform: scale(1.75);
+	transform-origin: -4% -33%;
+}
+.frame{overflow: hidden;}
+.vYoutube{
+	transition: opacity 300ms;
+}
+.youtube{background-color: black;}

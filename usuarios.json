@@ -1,0 +1,4 @@
+{"usuarios":{
+	"mariluz": {"password": "maluz", "grupos": ["matematicas", "prueba"]},
+	"admin": {"password": "admin", "grupos": ["matematicas", "prueba"]}
+}}
